@@ -1,0 +1,6 @@
+def LetterCapitalize(str)
+
+  return str.split(" ").each {|x| x.capitalize!}.join(" ")  
+  
+end
+   
