@@ -1,0 +1,6 @@
+def LetterChanges(str)
+
+  return str.gsub(/[a-zA-Z]/){ |x| x.next}.gsub(/[aioue]/){ |y| y.upcase} # code goes here
+  
+         
+end
