@@ -1,0 +1,10 @@
+def TimeConvert(num)
+
+  @front = num/60
+  @back = num%60
+  
+  # code goes here
+  return "#{@front}:#{@back}" 
+         
+end
+   
