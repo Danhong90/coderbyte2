@@ -1,0 +1,9 @@
+def WordCount(str)
+
+  # code goes here
+  a = str.count' '
+  return a+1
+  
+         
+end
+   
